@@ -99,17 +99,18 @@
 
 
 
-  <meta name="description" content="为落实《新时期产业工人队伍建设改革方案》，创新技能导向的激励机制，进一步鼓励辛勤劳动、诚实劳动、创造性劳动，增强生产服务一线岗位对劳动者吸引力，建设知识型、技能型、创新型劳动者大军，">
+  <meta name="description" content="HTML5 中提供了直接拖放的 API，极大的方便我们实现拖放效果，不需要去写一大堆的 js，只需要通过监听元素的拖放事件就能实现各种拖放功能。">
+<meta name="keywords" content="HTML5,JavaScript">
 <meta property="og:type" content="article">
-<meta property="og:title" content="中办国办发文要提高这群人的待遇">
-<meta property="og:url" content="https://taiziabc.github.io/2018/03/23/中办国办发文要提高这群人的待遇 - 副本 - 副本/index.html">
+<meta property="og:title" content="HTML5 进阶系列：拖放 API 实现拖放排序">
+<meta property="og:url" content="https://taiziabc.github.io/2018/04/10/HTML5 进阶系列：拖放 API 实现拖放排序/index.html">
 <meta property="og:site_name" content="taiziの博客">
-<meta property="og:description" content="为落实《新时期产业工人队伍建设改革方案》，创新技能导向的激励机制，进一步鼓励辛勤劳动、诚实劳动、创造性劳动，增强生产服务一线岗位对劳动者吸引力，建设知识型、技能型、创新型劳动者大军，">
+<meta property="og:description" content="HTML5 中提供了直接拖放的 API，极大的方便我们实现拖放效果，不需要去写一大堆的 js，只需要通过监听元素的拖放事件就能实现各种拖放功能。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-23T08:39:15.447Z">
+<meta property="og:updated_time" content="2018-04-10T09:24:41.656Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="中办国办发文要提高这群人的待遇">
-<meta name="twitter:description" content="为落实《新时期产业工人队伍建设改革方案》，创新技能导向的激励机制，进一步鼓励辛勤劳动、诚实劳动、创造性劳动，增强生产服务一线岗位对劳动者吸引力，建设知识型、技能型、创新型劳动者大军，">
+<meta name="twitter:title" content="HTML5 进阶系列：拖放 API 实现拖放排序">
+<meta name="twitter:description" content="HTML5 中提供了直接拖放的 API，极大的方便我们实现拖放效果，不需要去写一大堆的 js，只需要通过监听元素的拖放事件就能实现各种拖放功能。">
 
 
 
@@ -118,7 +119,7 @@
 
 
 
-  <link rel="canonical" href="https://taiziabc.github.io/2018/03/23/中办国办发文要提高这群人的待遇 - 副本 - 副本/"/>
+  <link rel="canonical" href="https://taiziabc.github.io/2018/04/10/HTML5 进阶系列：拖放 API 实现拖放排序/"/>
 
 
 
@@ -128,7 +129,7 @@
   };
 </script>
 
-  <title>中办国办发文要提高这群人的待遇 | taiziの博客</title>
+  <title>HTML5 进阶系列：拖放 API 实现拖放排序 | taiziの博客</title>
   
 
 
@@ -326,7 +327,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://taiziabc.github.io/2018/03/23/中办国办发文要提高这群人的待遇 - 副本 - 副本/">
+    <link itemprop="mainEntityOfPage" href="https://taiziabc.github.io/2018/04/10/HTML5 进阶系列：拖放 API 实现拖放排序/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="taizi">
@@ -343,7 +344,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">中办国办发文要提高这群人的待遇</h1>
+          <h1 class="post-title" itemprop="name headline">HTML5 进阶系列：拖放 API 实现拖放排序</h1>
         
 
         <div class="post-meta">
@@ -355,7 +356,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-23T16:37:30+08:00">2018-03-23</time>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-10T17:21:19+08:00">2018-04-10</time>
             
 
             
@@ -392,8 +393,92 @@
       
 
       
-        <p>为落实《新时期产业工人队伍建设改革方案》，创新技能导向的激励机制，进一步鼓励辛勤劳动、诚实劳动、创造性劳动，增强生产服务一线岗位对劳动者吸引力，建设知识型、技能型、创新型劳动者大军，<br><a id="more"></a></p>
-<p>营造劳动光荣的社会风尚和精益求精的敬业风气，现就提高技术工人待遇提出如下意见。<br>一、指导思想<br>全面贯彻党的十九大精神，以习近平新时代中国特色社会主义思想为指导，紧紧围绕统筹推进“五位一体”总体布局和协调推进“四个全面”战略布局，牢固树立和贯彻落实新发展理念，坚持以人民为中心的发展思想，坚持全心全意依靠工人阶级的方针，充分发挥政府、企业、社会的协同作用，完善技术工人培养、评价、使用、激励、保障等措施，实现技高者多得、多劳者多得，增强技术工人获得感、自豪感、荣誉感，激发技术工人积极性、主动性、创造性，为实施人才强国战略和创新驱动发展战略，实现“两个一百年”奋斗目标、实现中华民族伟大复兴的中国梦，提供坚实的人才保障。<br>二、基本原则<br>——加强领导，形成合力。坚持党管人才原则，充分发挥市场在资源配置中的决定性作用，更好发挥政府作用，进一步增强企业主体作用、工会监督作用、群团组织动员作用和社会支持作用，完善多方参与的工作体系，形成齐抓共促的工作格局。<br>——重点突破，多措并举。以为国家作出突出贡献的高技能领军人才为重点支持对象，着力提高技术工人收入水平，完善工资正常增长机制，拓宽收入渠道，加大培养培训力度，强化评价使用激励，优化社会环境，全面改善技术工人待遇水平。<br>——立足当前，着眼长远。加强政策引导，着力改变技术工人社会地位偏低现状，促进广大技术工人爱岗敬业；坚持长期稳定支持，不断营造良好社会氛围，让全体技术工人焕发劳动热情，释放创造潜能，创造更加美好的生活。</p>
+        <p>HTML5 中提供了直接拖放的 API，极大的方便我们实现拖放效果，不需要去写一大堆的 js，只需要通过监听元素的拖放事件就能实现各种拖放功能。<br><a id="more"></a><br>想要拖放某个元素，必须设置该元素的 draggable 属性为 true，当该属性为 false 时，将不允许拖放。而 img 元素和 a 元素都默认设置了 draggable 属性为 true，可直接拖放，如果不想拖放这两个元素，把属性设为 false 即可。</p>
+<h3 id="拖放事件"><a href="#拖放事件" class="headerlink" title="拖放事件"></a>拖放事件</h3><p>拖放事件由不同的元素产生。一个元素被拖放，他可能会经过很多个元素上，最终到达想要放置的元素内。这里，我暂时把被拖放的元素称为源对象，被经过的元素称为过程对象，到达的元素我称为目标对象。不同的对象产生不同的拖放事件。</p>
+<p>源对象：</p>
+<pre><code>- dragstart：源对象开始拖放。
+- drag：源对象拖放过程中。
+- dragend：源对象拖放结束。
+</code></pre><p>过程对象：</p>
+<pre><code>- dragenter：源对象开始进入过程对象范围内。
+- dragover：源对象在过程对象范围内移动。
+- dragleave：源对象离开过程对象的范围。
+</code></pre><p>目标对象：</p>
+<pre><code>- drop：源对象被拖放到目标对象内。
+
+&lt;div id=&quot;source&quot; draggable=&quot;true&quot;&gt;a元素&lt;/div&gt;
+&lt;div id=&quot;process&quot;&gt;b元素&lt;/div&gt;
+&lt;div id=&quot;target&quot;&gt;c元素&lt;/div&gt;
+&lt;script&gt;
+    var source = document.getElementById(&apos;source&apos;),     // a元素
+        process = document.getElementById(&apos;process&apos;),   // b元素
+        target = document.getElementById(&apos;target&apos;);     // c元素
+
+    source.addEventListener(&apos;dragstart&apos;,function(ev){   // dragstart事件由a元素产生
+        console.log(&apos;a元素开始被拖动&apos;);
+    },false)
+    process.addEventListener(&apos;dragenter&apos;,function(ev){  // dragenter事件由b元素产生
+        console.log(&apos;a元素开始进入b元素&apos;);
+    },false)
+    process.addEventListener(&apos;dragleave&apos;,function(ev){  // dragleave事件由b元素产生
+        console.log(&apos;a元素离开b元素&apos;);
+    },false)
+    target.addEventListener(&apos;drop&apos;,function(ev){        // drop事件由c元素产生
+        console.log(&apos;a元素拖放到c元素了&apos;);
+        ev.preventDefault();
+    },false)
+    document.ondragover = function(e){e.preventDefault();}
+&lt;/script&gt;
+</code></pre><h3 id="dataTransfer-对象"><a href="#dataTransfer-对象" class="headerlink" title="dataTransfer 对象"></a>dataTransfer 对象</h3><p>在所有拖放事件中提供了一个数据传递对象 dataTransfer，用于在源对象和目标对象间传递数据。接下来认识一下这个对象的方法和属性，来了解它是如何传递数据的。</p>
+<h4 id="setData"><a href="#setData" class="headerlink" title="setData()"></a>setData()</h4><p>该方法向 dataTransfer 对象中存入数据。接收两个参数，第一个表示要存入数据种类的字符串，现在支持有以下几种：</p>
+<pre><code>- text/plain：文本文字。
+- text/html：HTML文字。
+- text/xml：XML文字。
+- text/uri-list：URL列表，每个URL为一行。
+</code></pre><p>第二个参数为要存入的数据。例如：</p>
+<pre><code>event.dataTransfer.setData(&apos;text/plain&apos;,&apos;Hello World&apos;);
+</code></pre><h4 id="getData"><a href="#getData" class="headerlink" title="getData()"></a>getData()</h4><p>该方法从 dataTransfer 对象中读取数据。参数为在 setData 中指定的数据种类。例如：</p>
+<pre><code>event.dataTransfer.getData(&apos;text/plain&apos;);
+</code></pre><h4 id="clearData"><a href="#clearData" class="headerlink" title="clearData()"></a>clearData()</h4><p>该方法清除 dataTransfer 对象中存放的数据。参数可选，为数据种类。若参数为空，则清空所有种类的数据。例如：</p>
+<pre><code>event.dataTransfer.clearData();
+</code></pre><h4 id="setDragImage"><a href="#setDragImage" class="headerlink" title="setDragImage()"></a>setDragImage()</h4><p>该方法通过用img元素来设置拖放图标。接收三个参数，第一个为图标元素，第二个为图标元素离鼠标指针的X轴位移量，第三个为图标元素离鼠标指针的Y轴位移量。例如：</p>
+<pre><code>var source = document.getElementById(&apos;source&apos;),
+icon = document.createElement(&apos;img&apos;);
+icon.src = &apos;img.png&apos;;
+source.addEventListener(&apos;dragstart&apos;,function(ev){
+    ev.dataTransfer.setDragImage(icon,-10,-10)
+},false)
+</code></pre><h4 id="effectAllowed-和-dropEffect-属性"><a href="#effectAllowed-和-dropEffect-属性" class="headerlink" title="effectAllowed 和 dropEffect 属性"></a>effectAllowed 和 dropEffect 属性</h4><p>这两个属性结合起来设置拖放的视觉效果。</p>
+<p>值得注意的是：IE 不支持 dataTransfer 对象。对，不管哪个 IE 版本都不支持。</p>
+<h3 id="实现拖放排序"><a href="#实现拖放排序" class="headerlink" title="实现拖放排序"></a>实现拖放排序</h3><p>上面已经熟悉了拖放 API 的使用，我们来实现个简单的拖放排序，这也是在项目中比较常见的。先来理一下思路：</p>
+<pre><code>- 在一个列表中，每个元素都可以被拖放，那首先要给每个元素设置 draggable 属性为 true。
+- 监听每个元素的 dragstart 事件，对源对象做样式处理来区分。
+- 监听每个元素的 dragenter 事件，当源对象进入到当前元素里，就把源对象添加到该元素之前。这样子后面的元素就会被源对象挤下去了，实现了排序的效果。
+- 但是会发现，源对象无法排到最后一个去，只能在倒数第二。这时就要监听 dragleave 事件，当过程对象是最后一个元素时，源对象离开了过程对象，这时就把源对象添加到最后去。
+</code></pre><p>主要代码如下：</p>
+<pre><code>var source = document.querySelectorAll(&apos;.list&apos;),
+dragElement = null;
+for(var i = 0; i &lt; source.length; i++){
+    source[i].addEventListener(&apos;dragstart&apos;,function(ev){
+        dragElement = this;
+    },false);
+    source[i].addEventListener(&apos;dragenter&apos;, function(ev){
+        if(dragElement != this){
+            this.parentNode.insertBefore(dragElement,this);
+        }
+    }, false)
+    source[i].addEventListener(&apos;dragleave&apos;, function(ev){
+        if(dragElement != this){
+            if(this == this.parentNode.lastElementChild || this == this.parentNode.lastChild){
+                this.parentNode.appendChild(dragElement);
+            }
+        }
+    }, false)
+};
+document.ondragover = function(e){e.preventDefault();}
+document.ondrop = function(e){e.preventDefault();}
+</code></pre><h3 id="兼容"><a href="#兼容" class="headerlink" title="兼容"></a>兼容</h3><p>主要是在IE中的兼容不太好，不过至少在IE10中能兼容上面的拖动排序。</p>
+<p>而且在我简单的试验中发现，就是在 IE 中元素不设置 height 的时候，不会触发 dragleave 事件。</p>
 
       
     </div>
@@ -441,6 +526,14 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/HTML5/" rel="tag"><i class="fa fa-tag"></i> HTML5</a>
+          
+            <a href="/tags/JavaScript/" rel="tag"><i class="fa fa-tag"></i> JavaScript</a>
+          
+        </div>
+      
 
       
       
@@ -450,8 +543,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/03/23/中办国办发文要提高这群人的待遇 - 副本 (2)/" rel="next" title="中办国办发文要提高这群人的待遇">
-                <i class="fa fa-chevron-left"></i> 中办国办发文要提高这群人的待遇
+              <a href="/2018/04/10/HTML5 进阶系列：文件上传下载/" rel="next" title="HTML5 进阶系列：文件上传下载">
+                <i class="fa fa-chevron-left"></i> HTML5 进阶系列：文件上传下载
               </a>
             
           </div>
@@ -459,10 +552,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/03/23/中办国办发文要提高这群人的待遇 - 副本 - 副本 - 副本/" rel="prev" title="中办国办发文要提高这群人的待遇">
-                中办国办发文要提高这群人的待遇 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -586,8 +675,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -606,7 +704,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">15</span>
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -642,7 +740,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">4</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -718,6 +820,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#拖放事件"><span class="nav-number">1.</span> <span class="nav-text">拖放事件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#dataTransfer-对象"><span class="nav-number">2.</span> <span class="nav-text">dataTransfer 对象</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#setData"><span class="nav-number">2.1.</span> <span class="nav-text">setData()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#getData"><span class="nav-number">2.2.</span> <span class="nav-text">getData()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#clearData"><span class="nav-number">2.3.</span> <span class="nav-text">clearData()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#setDragImage"><span class="nav-number">2.4.</span> <span class="nav-text">setDragImage()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#effectAllowed-和-dropEffect-属性"><span class="nav-number">2.5.</span> <span class="nav-text">effectAllowed 和 dropEffect 属性</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实现拖放排序"><span class="nav-number">3.</span> <span class="nav-text">实现拖放排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#兼容"><span class="nav-number">4.</span> <span class="nav-text">兼容</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
